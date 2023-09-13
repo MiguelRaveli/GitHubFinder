@@ -33,6 +33,11 @@
 
 .search_container button{
     width: 3vw;
-    background-color: #0e1129;
+    background-color: #18142e;
     cursor: pointer;
 }
+
+.search_container button:hover{
+    background-color: #2f285a;
+}
+

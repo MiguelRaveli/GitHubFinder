@@ -19,7 +19,7 @@ const Home = () => {
         return;
       }
       const data = await response.json();
-      const { avatar_url, login, location, followers, following } = data;
+      const { avatar_url, login, location, followers, following , html_url} = data;
 
       const userData: Userprops = {
         avatar_url,
@@ -27,6 +27,7 @@ const Home = () => {
         location,
         followers,
         following,
+        html_url
       };
 
       setUser(userData);

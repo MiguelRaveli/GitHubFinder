@@ -4,4 +4,5 @@ export type Userprops = {
   location: string;
   followers: number;
   following: number;
+  html_url: string
 };
