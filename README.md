@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# GitHubFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **GitHubFinder**! Esta é uma aplicação que permite a você pesquisar usuários do GitHub e exibir informações detalhadas sobre eles. Você pode encontrar a foto do usuário, nome, localização, seguidores e quem a pessoa segue.
 
-Currently, two official plugins are available:
+## Funcionalidades Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pesquise usuários do GitHub pelo nome de usuário.
+- Visualize informações detalhadas sobre o usuário, incluindo:
+  - Foto de perfil
+  - Nome
+  - Localização
+  - Número de seguidores
+  - Número de pessoas que o usuário segue
 
-## Expanding the ESLint configuration
+## Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://reactjs.org/): Uma biblioteca JavaScript para construção de interfaces de usuário.
+- [Vite](https://vitejs.dev/): Um construtor de projetos rápido que suporta o desenvolvimento de aplicativos modernos.
+- [TypeScript](https://www.typescriptlang.org/): Uma linguagem de programação que adiciona tipagem estática ao JavaScript.
+  
+## Como Usar
 
-- Configure the top-level `parserOptions` property like this:
+1. Acesse o [GitHubFinder](https://miguelraveli.github.io/GitHubFinder/).
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+2. Na página inicial, você verá um campo de pesquisa. Digite o nome de usuário do GitHub que deseja encontrar e pressione "Pesquisar".
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Os resultados da pesquisa serão exibidos abaixo, mostrando a foto do perfil do usuário, nome, localização, seguidores e quem a pessoa segue.
+
+## Contribuições
+
+Este projeto é de código aberto e recebe contribuições. Se você deseja adicionar recursos adicionais, aprimorar a interface do usuário ou resolver problemas, sinta-se à vontade para criar um pull request.
+
+## Contato
+
+Se você tiver alguma dúvida, sugestão ou problema, não hesite em entrar em contato conosco em [miguelraveli123@gmail.com].
+
+Explore perfis de usuários do GitHub de forma rápida e fácil com o GitHubFinder!
