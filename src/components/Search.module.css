@@ -1,4 +1,5 @@
-.search{
+/* Estilos para desktop */
+.search {
     background-color: #2b3566;
     padding: 2rem;
     border-radius: 1rem;
@@ -15,29 +16,49 @@
     color: #9da5d1;
 }
 
-.search_container{
+.search_container {
     display: flex;
     gap: .5rem;
 }
 
 .search_container input,
-.search_container button{
-    
+.search_container button {
     width: 12vw;
     padding: 1rem;
     border-radius: 3px;
     border: none;
-    color: #2b3566
-    
+    color: #2b3566;
 }
 
-.search_container button{
+.search_container button {
     width: 3vw;
     background-color: #18142e;
     cursor: pointer;
 }
 
-.search_container button:hover{
+.search_container button:hover {
     background-color: #2f285a;
 }
 
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .search {
+        padding: 1rem;
+        font-size: 2.5vw;
+        width: 90vw;
+    }
+
+    .search_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search_container input,
+    .search_container button {
+        width: 20%;
+        padding: 0.5rem;
+    }
+    .search_container input{
+        width: 80vw;
+    }
+}
